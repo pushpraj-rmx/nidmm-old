@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us - NIDMM (National Institute of Digital Media Marketing)</title>
+<meta content="Choose the mode that works best for you and share your queries with us." name="description" />
+<meta name="robots" content="index, follow,all" 
+ <link rel="canonical" href="https://nidmm.com/contact.html" />
+<?php include("assets/inc/head.php"); ?>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" href="assets/css/style.css" media="all">
+<script src="https://www.google.com/recaptcha/api.js?render=6LfQTU4fAAAAAF8OIKlb_7cGVlNYTHOp06jnR7oe"></script>
+</head>
+<body>
+<?php include("assets/inc/header.php"); ?>
+<section class="bg-blue">
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <p class="fw-bold h1 text-white"> Contact Us </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container py-5">
+       <div class="row justify-content-center">
+    <div class="col-lg-10 text-center mb-4">
+     <p class="text-uppercase blue text-center fw-bold">Let’s Get Started!</p>
+     <p class="h2 fw-bold">Are you  <span class="text-danger">ready for a better </span>and more productive career?</p>
+     <p class=""> We have complete E-commerce solutions for you. Let us support you to grow your career . </p>
+    </div>
+   </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-4 mb-4">
+        <div class="card card-body border-primary mb-4">
+          <div class="text-center text-lg-left">
+            <svg width="50" height="50">
+              <use xlink:href="#icon-call" fill="#ce112d"/>
+            </svg>
+            <p class="pt-3"><span class="fw-bold h5"> For Job/Hiring: </span> <br>
+              Call now at: <a href="tel:011-41716004"> 011-41716004</a>, <br>
+              Email us at: <a href="mailto:info@nidmm.com"> info@nidmm.com</a></p>
+          </div>
+        </div>
+        <div class="card card-body border-danger mb-4">
+          <div class="text-center text-lg-left mb-2">
+            <svg width="50" height="50">
+              <use xlink:href="#icon-location" fill="#ce112d"/>
+            </svg>
+            <p class="h5 fw-bold pt-3"> Headquarters </p>
+            <p> 524, City Centre Mall, Sector-12, Dwarka, Delhi - 110075, India </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card card-body border-success">
+          <div id="response" style="display:none;" class="alert alert-warning mt-3"></div>
+          <form action="" method="post" id="formail" class="p-3">
+            <p>
+              <input class="form-control" type="text" id="name" name="name" maxlength="100" placeholder="Enter Your Name">
+            </p>
+            <p>
+              <input class="form-control" type="text" id="email" name="email" maxlength="100" placeholder="Email ID">
+            </p>
+            <p>
+              <input class="form-control" type="text" id="contact" name="contact" maxlength="15" placeholder="Mobile Number">
+            </p>
+            <p>
+              <input class="form-control" type="text" id="subject" name="subject" maxlength="100" placeholder="Subject">
+            </p>
+            <p>
+              <textarea placeholder="Write Your Query Here*" id="message" name="message"  maxlength="500" rows="3" cols="" class="form-control"></textarea>
+            </p>
+            <p class="text-center pt-3">
+              <input type="submit" class="btn btn-lg btn-success" value="Submit" />
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<?php include("assets/inc/footer.php"); ?>
+<?php include("assets/inc/sprite.php"); ?>
+<script src="assets/js/jquery.min.js"></script> 
+<script src="ajax-contact.js"></script> 
+<script src="assets/js/bootstrap.bundle.min.js" async></script> 
+<script src="assets/js/custom.js" async></script> 
+<script src="assets/js/lazysizes.min.js" async></script>
+</body>
+</html>
